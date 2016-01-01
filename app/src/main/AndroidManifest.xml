@@ -39,7 +39,8 @@
             android:exported="false" >
         </service>
 
-        <activity android:name=".GalleryActivity" >
+        <activity android:name=".GalleryActivity"
+            android:label="@string/title_activity_gallery">
         </activity>
     </application>
 

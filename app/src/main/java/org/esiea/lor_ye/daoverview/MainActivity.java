@@ -51,9 +51,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.menu_about:
-                // Comportement du bouton "A Propos"
-                return true;
             case R.id.menu_help:
                 // Comportement du bouton "Aide"
                 startActivity(new Intent(this, HelpActivity.class));
